@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Lenovo/Desktop/projet-infra-simple","disabled":false,"__vagrantfile":true}},"rsync":{"/var/www/html/":{"type":"rsync","guestpath":"/var/www/html","hostpath":"C:/Users/Lenovo/Desktop/projet-infra-simple/website","disabled":false,"__vagrantfile":true,"owner":"vagrant","group":"vagrant"}}}
