@@ -37,7 +37,7 @@ projet-infra-simple/
 ## Utilisation
 1. Installer Vagrant et VirtualBox  
 2. Lancer les machines : `vagrant up`  
-3. Accéder au site web : http://192.168.56.10:8080  
+3. Accéder au site web : http://localhost:8080  
 4. Accéder à MySQL depuis l’hôte : `mysql -h 127.0.0.1 -P 3307 -uroot -pRootPass123! demo_db`
 
 ## Notes
