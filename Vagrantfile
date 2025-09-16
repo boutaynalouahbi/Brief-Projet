@@ -8,7 +8,7 @@ config.vm.define "web-server" do |web|
     web.vbguest.auto_update = true
     web.vm.hostname = "web-server"
 
-    # Port  (3306 -> 3307 sur l’hôte)
+    # Port  (80 -> 8080 sur l’hôte)
     web.vm.network "forwarded_port", guest: 80, host: 8080
 
     # Réseau privé
