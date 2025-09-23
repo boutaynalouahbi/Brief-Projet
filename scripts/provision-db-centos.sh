@@ -13,7 +13,7 @@ echo "[3/5] Démarrage MySQL..."
 sudo systemctl enable --now mysqld
 
 echo "[4/5] Configuration root MySQL..."
-ROOT_PASS="RootPass123!"
+ROOT_PASS="R0ot!S3cur3#2025"
 
 # Vérifier si root est déjà configuré
 if mysql -uroot -p"$ROOT_PASS" -e ";" 2>/dev/null; then
@@ -54,6 +54,6 @@ for sql_file in "$DB_PATH"/*.sql; do
     fi
 done
 
-echo "✅ MySQL prêt avec la base '$DB_NAME'"
+echo "MySQL prêt avec la base '$DB_NAME'"
 echo "Root password : $ROOT_PASS"
 echo "Connexion depuis hôte : mysql -h 127.0.0.1 -P 3307 -uroot -p$ROOT_PASS $DB_NAME"
