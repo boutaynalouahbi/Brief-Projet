@@ -19,6 +19,6 @@ sudo systemctl enable nginx
 sudo systemctl start nginx
 
 echo "[4/4] Vérification..."
-sudo systemctl status nginx | grep "active (running)" && echo "✅ Nginx est en cours d'exécution"
+sudo systemctl status nginx | grep "active (running)" && echo "Nginx est en cours d'exécution"
 
 echo "💻 Accès web depuis l'hôte : http://127.0.0.1:8080"
