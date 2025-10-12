@@ -1,0 +1,609 @@
+[2025-10-12 14:48:15] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 14:48:15] [INFO] === Surveillance Système ===
+[2025-10-12 14:48:15] [INFO] Vérification utilisation CPU...
+[2025-10-12 14:48:15] [INFO] Utilisation CPU: 3%
+[2025-10-12 14:48:15] [SUCCESS] CPU normal: 3%
+[2025-10-12 14:48:15] [INFO] Vérification utilisation mémoire...
+[2025-10-12 14:48:15] [INFO] Utilisation mémoire: 16% (327308kB / 2010784kB)
+[2025-10-12 14:48:16] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 14:48:16] [INFO] Vérification espace disque...
+[2025-10-12 14:48:16] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 14:48:16] [SUCCESS] Tous les disques sont OK
+[2025-10-12 14:48:16] [INFO] Vérification charge système (load average)...
+[2025-10-12 14:48:16] [INFO] Load average: 0.19 (2 CPUs) - Load/CPU: 0.10
+[2025-10-12 14:48:16] [SUCCESS] Load normal: 0.10 par CPU
+[2025-10-12 14:48:16] [INFO] === Gestion des Processus ===
+[2025-10-12 14:48:16] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 14:48:16] [INFO]   PID:1272 USER:vagrant CPU:12.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 14:48:16] [INFO]   PID:655 USER:root CPU:0.9% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 14:48:16] [INFO]   PID:249 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 14:48:16] [INFO]   PID:1247 USER:root CPU:0.2% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 14:48:16] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 14:48:16] [INFO]   PID:367 USER:root CPU:0.1% MEM:0.7% CMD:/lib/systemd/systemd-journald
+[2025-10-12 14:48:17] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 14:48:17] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 14:48:17] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 14:48:17] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 14:48:17] [INFO] Recherche de processus zombies...
+[2025-10-12 14:48:17] [SUCCESS] Aucun processus zombie
+[2025-10-12 14:48:17] [INFO] Surveillance du processus: sshd
+[2025-10-12 14:48:17] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 14:48:17] [INFO] === Vérification Services ===
+[2025-10-12 14:48:17] [INFO] Vérification des services critiques...
+[2025-10-12 14:48:17] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 14:48:17] [SUCCESS] Service cron: ACTIF
+[2025-10-12 14:48:17] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 14:48:17] [INFO] === Surveillance Réseau ===
+[2025-10-12 14:48:17] [INFO] Test de connectivité Internet...
+[2025-10-12 14:48:17] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 14:48:17] [INFO] Nettoyage en cours...
+[2025-10-12 14:49:30] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 14:49:30] [INFO] === Surveillance Système ===
+[2025-10-12 14:49:30] [INFO] Vérification utilisation CPU...
+[2025-10-12 14:49:30] [INFO] Utilisation CPU: 3%
+[2025-10-12 14:49:30] [SUCCESS] CPU normal: 3%
+[2025-10-12 14:49:30] [INFO] Vérification utilisation mémoire...
+[2025-10-12 14:49:30] [INFO] Utilisation mémoire: 16% (329492kB / 2010784kB)
+[2025-10-12 14:49:30] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 14:49:30] [INFO] Vérification espace disque...
+[2025-10-12 14:49:30] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 14:49:30] [SUCCESS] Tous les disques sont OK
+[2025-10-12 14:49:30] [INFO] Vérification charge système (load average)...
+[2025-10-12 14:49:31] [INFO] Load average: 0.13 (2 CPUs) - Load/CPU: 0.07
+[2025-10-12 14:49:31] [SUCCESS] Load normal: 0.07 par CPU
+[2025-10-12 14:49:31] [INFO] === Gestion des Processus ===
+[2025-10-12 14:49:31] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 14:49:31] [INFO]   PID:1577 USER:vagrant CPU:13.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 14:49:31] [INFO]   PID:655 USER:root CPU:0.8% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 14:49:31] [INFO]   PID:249 USER:root CPU:0.2% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 14:49:31] [INFO]   PID:1247 USER:root CPU:0.2% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 14:49:31] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 14:49:31] [INFO]   PID:367 USER:root CPU:0.1% MEM:0.7% CMD:/lib/systemd/systemd-journald
+[2025-10-12 14:49:31] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 14:49:31] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 14:49:32] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 14:49:32] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 14:49:32] [INFO] Recherche de processus zombies...
+[2025-10-12 14:49:32] [SUCCESS] Aucun processus zombie
+[2025-10-12 14:49:32] [INFO] Surveillance du processus: sshd
+[2025-10-12 14:49:32] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 14:49:32] [INFO] === Vérification Services ===
+[2025-10-12 14:49:32] [INFO] Vérification des services critiques...
+[2025-10-12 14:49:32] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 14:49:32] [SUCCESS] Service cron: ACTIF
+[2025-10-12 14:49:32] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 14:49:32] [INFO] === Surveillance Réseau ===
+[2025-10-12 14:49:32] [INFO] Test de connectivité Internet...
+[2025-10-12 14:49:32] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 14:49:32] [INFO] Nettoyage en cours...
+[2025-10-12 14:50:18] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 14:50:18] [INFO] === Surveillance Système ===
+[2025-10-12 14:50:18] [INFO] Vérification utilisation CPU...
+[2025-10-12 14:50:19] [INFO] Utilisation CPU: 3%
+[2025-10-12 14:50:19] [SUCCESS] CPU normal: 3%
+[2025-10-12 14:50:19] [INFO] Vérification utilisation mémoire...
+[2025-10-12 14:50:19] [INFO] Utilisation mémoire: 16% (326412kB / 2010784kB)
+[2025-10-12 14:50:19] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 14:50:19] [INFO] Vérification espace disque...
+[2025-10-12 14:50:19] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 14:50:19] [SUCCESS] Tous les disques sont OK
+[2025-10-12 14:50:19] [INFO] Vérification charge système (load average)...
+[2025-10-12 14:50:19] [INFO] Load average: 0.06 (2 CPUs) - Load/CPU: 0.03
+[2025-10-12 14:50:19] [SUCCESS] Load normal: 0.03 par CPU
+[2025-10-12 14:50:19] [INFO] === Gestion des Processus ===
+[2025-10-12 14:50:19] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 14:50:19] [INFO]   PID:1882 USER:vagrant CPU:11.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 14:50:19] [INFO]   PID:655 USER:root CPU:0.7% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 14:50:19] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 14:50:20] [INFO]   PID:249 USER:root CPU:0.2% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 14:50:20] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 14:50:20] [INFO]   PID:367 USER:root CPU:0.1% MEM:0.7% CMD:/lib/systemd/systemd-journald
+[2025-10-12 14:50:20] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 14:50:20] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 14:50:20] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 14:50:20] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 14:50:20] [INFO] Recherche de processus zombies...
+[2025-10-12 14:50:20] [SUCCESS] Aucun processus zombie
+[2025-10-12 14:50:20] [INFO] Surveillance du processus: sshd
+[2025-10-12 14:50:21] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 14:50:21] [INFO] === Vérification Services ===
+[2025-10-12 14:50:21] [INFO] Vérification des services critiques...
+[2025-10-12 14:50:21] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 14:50:21] [SUCCESS] Service cron: ACTIF
+[2025-10-12 14:50:21] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 14:50:21] [INFO] === Surveillance Réseau ===
+[2025-10-12 14:50:21] [INFO] Test de connectivité Internet...
+[2025-10-12 14:50:21] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 14:50:21] [INFO] Nettoyage en cours...
+[2025-10-12 14:52:58] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 14:52:58] [INFO] === Surveillance Système ===
+[2025-10-12 14:52:58] [INFO] Vérification utilisation CPU...
+[2025-10-12 14:52:58] [INFO] Utilisation CPU: 6%
+[2025-10-12 14:52:58] [SUCCESS] CPU normal: 6%
+[2025-10-12 14:52:58] [INFO] Vérification utilisation mémoire...
+[2025-10-12 14:52:58] [INFO] Utilisation mémoire: 15% (320448kB / 2010784kB)
+[2025-10-12 14:52:58] [SUCCESS] Mémoire normale: 15%
+[2025-10-12 14:52:58] [INFO] Vérification espace disque...
+[2025-10-12 14:52:58] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 14:52:58] [SUCCESS] Tous les disques sont OK
+[2025-10-12 14:52:58] [INFO] Vérification charge système (load average)...
+[2025-10-12 14:52:59] [INFO] Load average: 0.01 (2 CPUs) - Load/CPU: 0.01
+[2025-10-12 14:52:59] [SUCCESS] Load normal: 0.01 par CPU
+[2025-10-12 14:52:59] [INFO] === Gestion des Processus ===
+[2025-10-12 14:52:59] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 14:52:59] [INFO]   PID:2191 USER:vagrant CPU:13.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 14:52:59] [INFO]   PID:655 USER:root CPU:0.6% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 14:52:59] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 14:52:59] [INFO]   PID:249 USER:root CPU:0.2% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 14:52:59] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 14:52:59] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 14:52:59] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 14:52:59] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 14:52:59] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 14:53:00] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 14:53:00] [INFO] Recherche de processus zombies...
+[2025-10-12 14:53:00] [SUCCESS] Aucun processus zombie
+[2025-10-12 14:53:00] [INFO] Surveillance du processus: sshd
+[2025-10-12 14:53:00] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 14:53:00] [INFO] === Vérification Services ===
+[2025-10-12 14:53:00] [INFO] Vérification des services critiques...
+[2025-10-12 14:53:00] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 14:53:00] [SUCCESS] Service cron: ACTIF
+[2025-10-12 14:53:00] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 14:53:00] [INFO] === Surveillance Réseau ===
+[2025-10-12 14:53:00] [INFO] Test de connectivité Internet...
+[2025-10-12 14:53:00] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 14:53:00] [INFO] Nettoyage en cours...
+[2025-10-12 14:55:45] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 14:55:45] [INFO] === Surveillance Système ===
+[2025-10-12 14:55:45] [INFO] Vérification utilisation CPU...
+[2025-10-12 14:55:45] [INFO] Utilisation CPU: 3%
+[2025-10-12 14:55:45] [SUCCESS] CPU normal: 3%
+[2025-10-12 14:55:46] [INFO] Vérification utilisation mémoire...
+[2025-10-12 14:55:46] [INFO] Utilisation mémoire: 16% (323212kB / 2010784kB)
+[2025-10-12 14:55:46] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 14:55:46] [INFO] Vérification espace disque...
+[2025-10-12 14:55:46] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 14:55:46] [SUCCESS] Tous les disques sont OK
+[2025-10-12 14:55:46] [INFO] Vérification charge système (load average)...
+[2025-10-12 14:55:46] [INFO] Load average: 0.20 (2 CPUs) - Load/CPU: 0.10
+[2025-10-12 14:55:46] [SUCCESS] Load normal: 0.10 par CPU
+[2025-10-12 14:55:46] [INFO] === Gestion des Processus ===
+[2025-10-12 14:55:46] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 14:55:46] [INFO]   PID:2497 USER:vagrant CPU:11.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 14:55:46] [INFO]   PID:655 USER:root CPU:0.5% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 14:55:46] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 14:55:46] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 14:55:47] [INFO]   PID:249 USER:root CPU:0.1% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 14:55:47] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 14:55:47] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 14:55:47] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 14:55:47] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 14:55:47] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 14:55:47] [INFO] Recherche de processus zombies...
+[2025-10-12 14:55:47] [SUCCESS] Aucun processus zombie
+[2025-10-12 14:55:47] [INFO] Surveillance du processus: sshd
+[2025-10-12 14:55:47] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 14:55:47] [INFO] === Vérification Services ===
+[2025-10-12 14:55:47] [INFO] Vérification des services critiques...
+[2025-10-12 14:55:47] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 14:55:47] [SUCCESS] Service cron: ACTIF
+[2025-10-12 14:55:47] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 14:55:47] [INFO] === Surveillance Réseau ===
+[2025-10-12 14:55:48] [INFO] Test de connectivité Internet...
+[2025-10-12 14:55:48] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 14:55:48] [INFO] Nettoyage en cours...
+[2025-10-12 15:03:29] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 15:03:29] [INFO] === Surveillance Système ===
+[2025-10-12 15:03:29] [INFO] Vérification utilisation CPU...
+[2025-10-12 15:03:29] [INFO] Utilisation CPU: 9%
+[2025-10-12 15:03:29] [SUCCESS] CPU normal: 9%
+[2025-10-12 15:03:29] [INFO] Vérification utilisation mémoire...
+[2025-10-12 15:03:30] [INFO] Utilisation mémoire: 16% (327964kB / 2010784kB)
+[2025-10-12 15:03:30] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 15:03:30] [INFO] Vérification espace disque...
+[2025-10-12 15:03:30] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 15:03:30] [SUCCESS] Tous les disques sont OK
+[2025-10-12 15:03:30] [INFO] Vérification charge système (load average)...
+[2025-10-12 15:03:30] [INFO] Load average: 0.00 (2 CPUs) - Load/CPU: 0.00
+[2025-10-12 15:03:30] [SUCCESS] Load normal: 0.00 par CPU
+[2025-10-12 15:03:30] [INFO] === Gestion des Processus ===
+[2025-10-12 15:03:30] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 15:03:30] [INFO]   PID:2806 USER:vagrant CPU:7.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 15:03:30] [INFO]   PID:655 USER:root CPU:0.4% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 15:03:30] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 15:03:31] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 15:03:31] [INFO]   PID:249 USER:root CPU:0.1% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 15:03:31] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 15:03:31] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 15:03:31] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 15:03:31] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 15:03:31] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 15:03:31] [INFO] Recherche de processus zombies...
+[2025-10-12 15:03:31] [SUCCESS] Aucun processus zombie
+[2025-10-12 15:03:31] [INFO] Surveillance du processus: sshd
+[2025-10-12 15:03:31] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 15:03:31] [INFO] === Vérification Services ===
+[2025-10-12 15:03:31] [INFO] Vérification des services critiques...
+[2025-10-12 15:03:31] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 15:03:31] [SUCCESS] Service cron: ACTIF
+[2025-10-12 15:03:31] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 15:03:31] [INFO] === Surveillance Réseau ===
+[2025-10-12 15:03:31] [INFO] Test de connectivité Internet...
+[2025-10-12 15:03:31] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 15:03:31] [INFO] Nettoyage en cours...
+[2025-10-12 15:05:40] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 15:05:40] [INFO] === Surveillance Système ===
+[2025-10-12 15:05:40] [INFO] Vérification utilisation CPU...
+[2025-10-12 15:05:40] [INFO] Utilisation CPU: 0%
+[2025-10-12 15:05:40] [SUCCESS] CPU normal: 0%
+[2025-10-12 15:05:41] [INFO] Vérification utilisation mémoire...
+[2025-10-12 15:05:41] [INFO] Utilisation mémoire: 16% (334348kB / 2010784kB)
+[2025-10-12 15:05:41] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 15:05:41] [INFO] Vérification espace disque...
+[2025-10-12 15:05:41] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 15:05:41] [SUCCESS] Tous les disques sont OK
+[2025-10-12 15:05:41] [INFO] Vérification charge système (load average)...
+[2025-10-12 15:05:41] [INFO] Load average: 0.23 (2 CPUs) - Load/CPU: 0.12
+[2025-10-12 15:05:41] [SUCCESS] Load normal: 0.12 par CPU
+[2025-10-12 15:05:41] [INFO] === Gestion des Processus ===
+[2025-10-12 15:05:41] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 15:05:41] [INFO]   PID:3298 USER:vagrant CPU:7.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 15:05:41] [INFO]   PID:655 USER:root CPU:0.3% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 15:05:41] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 15:05:41] [INFO]   PID:3219 USER:root CPU:0.2% MEM:1.0% CMD:/usr/libexec/packagekitd
+[2025-10-12 15:05:42] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 15:05:42] [INFO]   PID:249 USER:root CPU:0.1% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 15:05:42] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 15:05:42] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 15:05:42] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 15:05:42] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 15:05:42] [INFO] Recherche de processus zombies...
+[2025-10-12 15:05:42] [SUCCESS] Aucun processus zombie
+[2025-10-12 15:05:42] [INFO] Surveillance du processus: sshd
+[2025-10-12 15:05:42] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 15:05:42] [INFO] === Vérification Services ===
+[2025-10-12 15:05:42] [INFO] Vérification des services critiques...
+[2025-10-12 15:05:42] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 15:05:42] [SUCCESS] Service cron: ACTIF
+[2025-10-12 15:05:42] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 15:05:42] [INFO] === Surveillance Réseau ===
+[2025-10-12 15:05:42] [INFO] Test de connectivité Internet...
+[2025-10-12 15:05:42] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 15:05:42] [INFO] Nettoyage en cours...
+[2025-10-12 15:07:48] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 15:07:48] [INFO] === Surveillance Système ===
+[2025-10-12 15:07:48] [INFO] Vérification utilisation CPU...
+[2025-10-12 15:07:48] [INFO] Utilisation CPU: 0%
+[2025-10-12 15:07:49] [SUCCESS] CPU normal: 0%
+[2025-10-12 15:07:49] [INFO] Vérification utilisation mémoire...
+[2025-10-12 15:07:49] [INFO] Utilisation mémoire: 16% (334596kB / 2010784kB)
+[2025-10-12 15:07:49] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 15:07:49] [INFO] Vérification espace disque...
+[2025-10-12 15:07:49] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 15:07:49] [SUCCESS] Tous les disques sont OK
+[2025-10-12 15:07:49] [INFO] Vérification charge système (load average)...
+[2025-10-12 15:07:49] [INFO] Load average: 0.03 (2 CPUs) - Load/CPU: 0.01
+[2025-10-12 15:07:49] [SUCCESS] Load normal: 0.01 par CPU
+[2025-10-12 15:07:49] [INFO] === Gestion des Processus ===
+[2025-10-12 15:07:49] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 15:07:49] [INFO]   PID:3603 USER:vagrant CPU:13.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 15:07:49] [INFO]   PID:655 USER:root CPU:0.3% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 15:07:50] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 15:07:50] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 15:07:50] [INFO]   PID:249 USER:root CPU:0.1% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 15:07:50] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 15:07:50] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 15:07:50] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 15:07:50] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 15:07:50] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 15:07:50] [INFO] Recherche de processus zombies...
+[2025-10-12 15:07:50] [SUCCESS] Aucun processus zombie
+[2025-10-12 15:07:50] [INFO] Surveillance du processus: sshd
+[2025-10-12 15:07:50] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 15:07:50] [INFO] === Vérification Services ===
+[2025-10-12 15:07:51] [INFO] Vérification des services critiques...
+[2025-10-12 15:07:51] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 15:07:51] [SUCCESS] Service cron: ACTIF
+[2025-10-12 15:07:51] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 15:07:51] [INFO] === Surveillance Réseau ===
+[2025-10-12 15:07:51] [INFO] Test de connectivité Internet...
+[2025-10-12 15:07:51] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 15:07:51] [INFO] Nettoyage en cours...
+[2025-10-12 15:09:03] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 15:09:03] [INFO] === Surveillance Système ===
+[2025-10-12 15:09:03] [INFO] Vérification utilisation CPU...
+[2025-10-12 15:09:04] [INFO] Utilisation CPU: 0%
+[2025-10-12 15:09:04] [SUCCESS] CPU normal: 0%
+[2025-10-12 15:09:04] [INFO] Vérification utilisation mémoire...
+[2025-10-12 15:09:04] [INFO] Utilisation mémoire: 16% (336640kB / 2010784kB)
+[2025-10-12 15:09:04] [SUCCESS] Mémoire normale: 16%
+[2025-10-12 15:09:04] [INFO] Vérification espace disque...
+[2025-10-12 15:09:04] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 15:09:04] [SUCCESS] Tous les disques sont OK
+[2025-10-12 15:09:04] [INFO] Vérification charge système (load average)...
+[2025-10-12 15:09:04] [INFO] Load average: 0.01 (2 CPUs) - Load/CPU: 0.01
+[2025-10-12 15:09:04] [SUCCESS] Load normal: 0.01 par CPU
+[2025-10-12 15:09:04] [INFO] === Gestion des Processus ===
+[2025-10-12 15:09:04] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 15:09:04] [INFO]   PID:3908 USER:vagrant CPU:10.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 15:09:04] [INFO]   PID:655 USER:root CPU:0.3% MEM:1.9% CMD:/usr/lib/snapd/snapd
+[2025-10-12 15:09:04] [INFO]   PID:1247 USER:root CPU:0.3% MEM:0.0% CMD:[kworker/1:0-events]
+[2025-10-12 15:09:05] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.5% CMD:/sbin/init
+[2025-10-12 15:09:05] [INFO]   PID:249 USER:root CPU:0.1% MEM:0.0% CMD:[kworker/1:1-events]
+[2025-10-12 15:09:05] [INFO]   PID:401 USER:root CPU:0.1% MEM:1.3% CMD:/sbin/multipathd
+[2025-10-12 15:09:05] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 15:09:05] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 15:09:05] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 15:09:05] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 15:09:05] [INFO] Recherche de processus zombies...
+[2025-10-12 15:09:05] [SUCCESS] Aucun processus zombie
+[2025-10-12 15:09:05] [INFO] Surveillance du processus: sshd
+[2025-10-12 15:09:05] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 15:09:05] [INFO] === Vérification Services ===
+[2025-10-12 15:09:05] [INFO] Vérification des services critiques...
+[2025-10-12 15:09:05] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 15:09:05] [SUCCESS] Service cron: ACTIF
+[2025-10-12 15:09:05] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 15:09:05] [INFO] === Surveillance Réseau ===
+[2025-10-12 15:09:05] [INFO] Test de connectivité Internet...
+[2025-10-12 15:09:05] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 15:09:05] [INFO] Nettoyage en cours...
+[2025-10-12 16:48:29] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 16:48:29] [INFO] === Surveillance Système ===
+[2025-10-12 16:48:29] [INFO] Vérification utilisation CPU...
+[2025-10-12 16:48:29] [INFO] Utilisation CPU: 6%
+[2025-10-12 16:48:29] [SUCCESS] CPU normal: 6%
+[2025-10-12 16:48:29] [INFO] Vérification utilisation mémoire...
+[2025-10-12 16:48:29] [INFO] Utilisation mémoire: 17% (361736kB / 2010784kB)
+[2025-10-12 16:48:30] [SUCCESS] Mémoire normale: 17%
+[2025-10-12 16:48:30] [INFO] Vérification espace disque...
+[2025-10-12 16:48:30] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 16:48:30] [SUCCESS] Tous les disques sont OK
+[2025-10-12 16:48:30] [INFO] Vérification charge système (load average)...
+[2025-10-12 16:48:30] [INFO] Load average: 0.00 (2 CPUs) - Load/CPU: 0.00
+[2025-10-12 16:48:30] [SUCCESS] Load normal: 0.00 par CPU
+[2025-10-12 16:48:30] [INFO] === Gestion des Processus ===
+[2025-10-12 16:48:30] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 16:48:30] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.6% CMD:/sbin/init
+[2025-10-12 16:48:30] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 16:48:30] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 16:48:30] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 16:48:30] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 16:48:30] [INFO]   PID:6 USER:root CPU:0.0% MEM:0.0% CMD:[netns]
+[2025-10-12 16:48:30] [INFO]   PID:8 USER:root CPU:0.0% MEM:0.0% CMD:[kworker/0:0H-events_highpri]
+[2025-10-12 16:48:31] [INFO]   PID:10 USER:root CPU:0.0% MEM:0.0% CMD:[mm_percpu_wq]
+[2025-10-12 16:48:31] [INFO]   PID:11 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_rude_]
+[2025-10-12 16:48:31] [INFO]   PID:12 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_trace]
+[2025-10-12 16:48:31] [INFO] Recherche de processus zombies...
+[2025-10-12 16:48:31] [SUCCESS] Aucun processus zombie
+[2025-10-12 16:48:31] [INFO] Surveillance du processus: sshd
+[2025-10-12 16:48:31] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 16:48:31] [INFO] === Vérification Services ===
+[2025-10-12 16:48:31] [INFO] Vérification des services critiques...
+[2025-10-12 16:48:31] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 16:48:31] [SUCCESS] Service cron: ACTIF
+[2025-10-12 16:48:31] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 16:48:31] [SUCCESS] Service NetworkManager: ACTIF
+[2025-10-12 16:48:31] [SUCCESS] Service ufw: ACTIF
+[2025-10-12 16:48:31] [INFO] === Surveillance Réseau ===
+[2025-10-12 16:48:31] [INFO] Test de connectivité Internet...
+[2025-10-12 16:48:32] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 16:48:32] [INFO] Nettoyage en cours...
+[2025-10-12 16:49:41] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 16:49:41] [INFO] === Surveillance Système ===
+[2025-10-12 16:49:41] [INFO] Vérification utilisation CPU...
+[2025-10-12 16:49:41] [INFO] Utilisation CPU: 3%
+[2025-10-12 16:49:41] [SUCCESS] CPU normal: 3%
+[2025-10-12 16:49:41] [INFO] Vérification utilisation mémoire...
+[2025-10-12 16:49:41] [INFO] Utilisation mémoire: 17% (361376kB / 2010784kB)
+[2025-10-12 16:49:41] [SUCCESS] Mémoire normale: 17%
+[2025-10-12 16:49:41] [INFO] Vérification espace disque...
+[2025-10-12 16:49:41] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 16:49:41] [SUCCESS] Tous les disques sont OK
+[2025-10-12 16:49:41] [INFO] Vérification charge système (load average)...
+[2025-10-12 16:49:41] [INFO] Load average: 0.15 (2 CPUs) - Load/CPU: 0.07
+[2025-10-12 16:49:41] [SUCCESS] Load normal: 0.07 par CPU
+[2025-10-12 16:49:41] [INFO] === Gestion des Processus ===
+[2025-10-12 16:49:41] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 16:49:41] [INFO]   PID:9525 USER:vagrant CPU:10.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 16:49:42] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.6% CMD:/sbin/init
+[2025-10-12 16:49:42] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 16:49:42] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 16:49:42] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 16:49:42] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 16:49:42] [INFO]   PID:6 USER:root CPU:0.0% MEM:0.0% CMD:[netns]
+[2025-10-12 16:49:42] [INFO]   PID:8 USER:root CPU:0.0% MEM:0.0% CMD:[kworker/0:0H-events_highpri]
+[2025-10-12 16:49:42] [INFO]   PID:10 USER:root CPU:0.0% MEM:0.0% CMD:[mm_percpu_wq]
+[2025-10-12 16:49:42] [INFO]   PID:11 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_rude_]
+[2025-10-12 16:49:42] [INFO] Recherche de processus zombies...
+[2025-10-12 16:49:43] [SUCCESS] Aucun processus zombie
+[2025-10-12 16:49:43] [INFO] Surveillance du processus: sshd
+[2025-10-12 16:49:43] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 16:49:43] [INFO] === Vérification Services ===
+[2025-10-12 16:49:43] [INFO] Vérification des services critiques...
+[2025-10-12 16:49:43] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 16:49:43] [SUCCESS] Service cron: ACTIF
+[2025-10-12 16:49:43] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 16:49:43] [SUCCESS] Service NetworkManager: ACTIF
+[2025-10-12 16:49:43] [SUCCESS] Service ufw: ACTIF
+[2025-10-12 16:49:43] [INFO] === Surveillance Réseau ===
+[2025-10-12 16:49:43] [INFO] Test de connectivité Internet...
+[2025-10-12 16:49:43] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 16:49:43] [INFO] Nettoyage en cours...
+[2025-10-12 16:50:38] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 16:50:38] [INFO] === Surveillance Système ===
+[2025-10-12 16:50:38] [INFO] Vérification utilisation CPU...
+[2025-10-12 16:50:38] [INFO] Utilisation CPU: 6%
+[2025-10-12 16:50:38] [SUCCESS] CPU normal: 6%
+[2025-10-12 16:50:39] [INFO] Vérification utilisation mémoire...
+[2025-10-12 16:50:39] [INFO] Utilisation mémoire: 18% (362104kB / 2010784kB)
+[2025-10-12 16:50:39] [SUCCESS] Mémoire normale: 18%
+[2025-10-12 16:50:39] [INFO] Vérification espace disque...
+[2025-10-12 16:50:39] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 16:50:39] [SUCCESS] Tous les disques sont OK
+[2025-10-12 16:50:39] [INFO] Vérification charge système (load average)...
+[2025-10-12 16:50:39] [INFO] Load average: 0.09 (2 CPUs) - Load/CPU: 0.04
+[2025-10-12 16:50:39] [SUCCESS] Load normal: 0.04 par CPU
+[2025-10-12 16:50:39] [INFO] === Gestion des Processus ===
+[2025-10-12 16:50:39] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 16:50:39] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.6% CMD:/sbin/init
+[2025-10-12 16:50:39] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 16:50:39] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 16:50:39] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 16:50:40] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 16:50:40] [INFO]   PID:6 USER:root CPU:0.0% MEM:0.0% CMD:[netns]
+[2025-10-12 16:50:40] [INFO]   PID:8 USER:root CPU:0.0% MEM:0.0% CMD:[kworker/0:0H-events_highpri]
+[2025-10-12 16:50:40] [INFO]   PID:10 USER:root CPU:0.0% MEM:0.0% CMD:[mm_percpu_wq]
+[2025-10-12 16:50:40] [INFO]   PID:11 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_rude_]
+[2025-10-12 16:50:40] [INFO]   PID:12 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_trace]
+[2025-10-12 16:50:40] [INFO] Recherche de processus zombies...
+[2025-10-12 16:50:40] [SUCCESS] Aucun processus zombie
+[2025-10-12 16:50:40] [INFO] Surveillance du processus: sshd
+[2025-10-12 16:50:40] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 16:50:40] [INFO] === Vérification Services ===
+[2025-10-12 16:50:40] [INFO] Vérification des services critiques...
+[2025-10-12 16:50:40] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 16:50:41] [SUCCESS] Service cron: ACTIF
+[2025-10-12 16:50:41] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 16:50:41] [SUCCESS] Service NetworkManager: ACTIF
+[2025-10-12 16:50:41] [SUCCESS] Service ufw: ACTIF
+[2025-10-12 16:50:41] [INFO] === Surveillance Réseau ===
+[2025-10-12 16:50:41] [INFO] Test de connectivité Internet...
+[2025-10-12 16:50:41] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 16:50:41] [INFO] Nettoyage en cours...
+[2025-10-12 16:51:58] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 16:51:58] [INFO] === Surveillance Système ===
+[2025-10-12 16:51:59] [INFO] Vérification utilisation CPU...
+[2025-10-12 16:51:59] [INFO] Utilisation CPU: 3%
+[2025-10-12 16:51:59] [SUCCESS] CPU normal: 3%
+[2025-10-12 16:51:59] [INFO] Vérification utilisation mémoire...
+[2025-10-12 16:51:59] [INFO] Utilisation mémoire: 17% (359564kB / 2010784kB)
+[2025-10-12 16:51:59] [SUCCESS] Mémoire normale: 17%
+[2025-10-12 16:51:59] [INFO] Vérification espace disque...
+[2025-10-12 16:51:59] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 16:51:59] [SUCCESS] Tous les disques sont OK
+[2025-10-12 16:51:59] [INFO] Vérification charge système (load average)...
+[2025-10-12 16:51:59] [INFO] Load average: 0.02 (2 CPUs) - Load/CPU: 0.01
+[2025-10-12 16:51:59] [SUCCESS] Load normal: 0.01 par CPU
+[2025-10-12 16:51:59] [INFO] === Gestion des Processus ===
+[2025-10-12 16:51:59] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 16:51:59] [INFO]   PID:10147 USER:vagrant CPU:10.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 16:51:59] [INFO]   PID:1 USER:root CPU:0.1% MEM:0.6% CMD:/sbin/init
+[2025-10-12 16:51:59] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 16:52:00] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 16:52:00] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 16:52:00] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 16:52:00] [INFO]   PID:6 USER:root CPU:0.0% MEM:0.0% CMD:[netns]
+[2025-10-12 16:52:00] [INFO]   PID:8 USER:root CPU:0.0% MEM:0.0% CMD:[kworker/0:0H-events_highpri]
+[2025-10-12 16:52:00] [INFO]   PID:10 USER:root CPU:0.0% MEM:0.0% CMD:[mm_percpu_wq]
+[2025-10-12 16:52:00] [INFO]   PID:11 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_rude_]
+[2025-10-12 16:52:00] [INFO] Recherche de processus zombies...
+[2025-10-12 16:52:00] [SUCCESS] Aucun processus zombie
+[2025-10-12 16:52:00] [INFO] Surveillance du processus: sshd
+[2025-10-12 16:52:00] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 16:52:00] [INFO] === Vérification Services ===
+[2025-10-12 16:52:00] [INFO] Vérification des services critiques...
+[2025-10-12 16:52:00] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 16:52:00] [SUCCESS] Service cron: ACTIF
+[2025-10-12 16:52:01] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 16:52:01] [SUCCESS] Service NetworkManager: ACTIF
+[2025-10-12 16:52:01] [SUCCESS] Service ufw: ACTIF
+[2025-10-12 16:52:01] [INFO] === Surveillance Réseau ===
+[2025-10-12 16:52:01] [INFO] Test de connectivité Internet...
+[2025-10-12 16:52:01] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 16:52:01] [INFO] Nettoyage en cours...
+[2025-10-12 16:55:47] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 16:55:47] [INFO] === Surveillance Système ===
+[2025-10-12 16:55:47] [INFO] Vérification utilisation CPU...
+[2025-10-12 16:55:47] [INFO] Utilisation CPU: 6%
+[2025-10-12 16:55:47] [SUCCESS] CPU normal: 6%
+[2025-10-12 16:55:47] [INFO] Vérification utilisation mémoire...
+[2025-10-12 16:55:47] [INFO] Utilisation mémoire: 17% (359528kB / 2010784kB)
+[2025-10-12 16:55:47] [SUCCESS] Mémoire normale: 17%
+[2025-10-12 16:55:47] [INFO] Vérification espace disque...
+[2025-10-12 16:55:48] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 16:55:48] [SUCCESS] Tous les disques sont OK
+[2025-10-12 16:55:48] [INFO] Vérification charge système (load average)...
+[2025-10-12 16:55:48] [INFO] Load average: 0.01 (2 CPUs) - Load/CPU: 0.01
+[2025-10-12 16:55:48] [SUCCESS] Load normal: 0.01 par CPU
+[2025-10-12 16:55:48] [INFO] === Gestion des Processus ===
+[2025-10-12 16:55:48] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 16:55:48] [INFO]   PID:10688 USER:vagrant CPU:8.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 16:55:48] [INFO]   PID:1 USER:root CPU:0.0% MEM:0.6% CMD:/sbin/init
+[2025-10-12 16:55:48] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 16:55:48] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 16:55:48] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 16:55:48] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 16:55:48] [INFO]   PID:6 USER:root CPU:0.0% MEM:0.0% CMD:[netns]
+[2025-10-12 16:55:48] [INFO]   PID:8 USER:root CPU:0.0% MEM:0.0% CMD:[kworker/0:0H-events_highpri]
+[2025-10-12 16:55:48] [INFO]   PID:10 USER:root CPU:0.0% MEM:0.0% CMD:[mm_percpu_wq]
+[2025-10-12 16:55:48] [INFO]   PID:11 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_rude_]
+[2025-10-12 16:55:48] [INFO] Recherche de processus zombies...
+[2025-10-12 16:55:49] [SUCCESS] Aucun processus zombie
+[2025-10-12 16:55:49] [INFO] Surveillance du processus: sshd
+[2025-10-12 16:55:49] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 16:55:49] [INFO] === Vérification Services ===
+[2025-10-12 16:55:49] [INFO] Vérification des services critiques...
+[2025-10-12 16:55:49] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 16:55:49] [SUCCESS] Service cron: ACTIF
+[2025-10-12 16:55:49] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 16:55:49] [SUCCESS] Service NetworkManager: ACTIF
+[2025-10-12 16:55:49] [SUCCESS] Service ufw: ACTIF
+[2025-10-12 16:55:49] [INFO] === Surveillance Réseau ===
+[2025-10-12 16:55:49] [INFO] Test de connectivité Internet...
+[2025-10-12 16:55:49] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 16:55:49] [INFO] Nettoyage en cours...
+[2025-10-12 16:58:56] [INFO] === Démarrage SysMonitor Pro ===
+[2025-10-12 16:58:56] [INFO] === Surveillance Système ===
+[2025-10-12 16:58:56] [INFO] Vérification utilisation CPU...
+[2025-10-12 16:58:57] [INFO] Utilisation CPU: 0%
+[2025-10-12 16:58:57] [SUCCESS] CPU normal: 0%
+[2025-10-12 16:58:57] [INFO] Vérification utilisation mémoire...
+[2025-10-12 16:58:57] [INFO] Utilisation mémoire: 17% (355632kB / 2010784kB)
+[2025-10-12 16:58:57] [SUCCESS] Mémoire normale: 17%
+[2025-10-12 16:58:57] [INFO] Vérification espace disque...
+[2025-10-12 16:58:57] [INFO] Partition / (/dev/sda1): 7%
+[2025-10-12 16:58:57] [SUCCESS] Tous les disques sont OK
+[2025-10-12 16:58:57] [INFO] Vérification charge système (load average)...
+[2025-10-12 16:58:57] [INFO] Load average: 0.00 (2 CPUs) - Load/CPU: 0.00
+[2025-10-12 16:58:57] [SUCCESS] Load normal: 0.00 par CPU
+[2025-10-12 16:58:57] [INFO] === Gestion des Processus ===
+[2025-10-12 16:58:57] [INFO] Top 10 processus consommateurs de CPU...
+[2025-10-12 16:58:57] [INFO]   PID:11001 USER:vagrant CPU:12.0% MEM:0.2% CMD:/bin/bash
+[2025-10-12 16:58:57] [INFO]   PID:1 USER:root CPU:0.0% MEM:0.6% CMD:/sbin/init
+[2025-10-12 16:58:57] [INFO]   PID:2 USER:root CPU:0.0% MEM:0.0% CMD:[kthreadd]
+[2025-10-12 16:58:57] [INFO]   PID:3 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_gp]
+[2025-10-12 16:58:58] [INFO]   PID:4 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_par_gp]
+[2025-10-12 16:58:58] [INFO]   PID:5 USER:root CPU:0.0% MEM:0.0% CMD:[slub_flushwq]
+[2025-10-12 16:58:58] [INFO]   PID:6 USER:root CPU:0.0% MEM:0.0% CMD:[netns]
+[2025-10-12 16:58:58] [INFO]   PID:8 USER:root CPU:0.0% MEM:0.0% CMD:[kworker/0:0H-events_highpri]
+[2025-10-12 16:58:58] [INFO]   PID:10 USER:root CPU:0.0% MEM:0.0% CMD:[mm_percpu_wq]
+[2025-10-12 16:58:58] [INFO]   PID:11 USER:root CPU:0.0% MEM:0.0% CMD:[rcu_tasks_rude_]
+[2025-10-12 16:58:58] [INFO] Recherche de processus zombies...
+[2025-10-12 16:58:58] [SUCCESS] Aucun processus zombie
+[2025-10-12 16:58:58] [INFO] Surveillance du processus: sshd
+[2025-10-12 16:58:58] [SUCCESS] Processus sshd actif (PID:690 CPU:0.0% MEM:0.4%)
+[2025-10-12 16:58:58] [INFO] === Vérification Services ===
+[2025-10-12 16:58:58] [INFO] Vérification des services critiques...
+[2025-10-12 16:58:58] [SUCCESS] Service ssh: ACTIF
+[2025-10-12 16:58:58] [SUCCESS] Service cron: ACTIF
+[2025-10-12 16:58:58] [SUCCESS] Service rsyslog: ACTIF
+[2025-10-12 16:58:58] [SUCCESS] Service NetworkManager: ACTIF
+[2025-10-12 16:58:58] [SUCCESS] Service ufw: ACTIF
+[2025-10-12 16:58:59] [INFO] === Surveillance Réseau ===
+[2025-10-12 16:58:59] [INFO] Test de connectivité Internet...
+[2025-10-12 16:58:59] [SUCCESS] Connectivité OK vers 8.8.8.8
+[2025-10-12 16:58:59] [SUCCESS] Connectivité OK vers 1.1.1.1
+[2025-10-12 16:58:59] [SUCCESS] Connectivité OK vers google.com
+[2025-10-12 16:58:59] [INFO] État des interfaces réseau...
+[2025-10-12 16:58:59] [WARNING] Interface lo: UNKNOWN
+[2025-10-12 16:58:59] [SUCCESS] Interface enp0s3: UP (10.0.2.15/24 metric 100 fd00::29:1eff:fe73:1fd5/64 fe80::29:1eff:fe73:1fd5/64)
+[2025-10-12 16:58:59] [SUCCESS] Interface enp0s8: UP (192.168.56.10/24 fe80::a00:27ff:fe9b:ba5e/64)
+[2025-10-12 16:58:59] [INFO] Scan des ports ouverts en écoute...
+[2025-10-12 16:58:59] [INFO]   Port * ouvert (tcp)
+[2025-10-12 16:58:59] [INFO]   Port * ouvert (tcp)
+[2025-10-12 16:58:59] [INFO]   Port * ouvert (tcp)
+[2025-10-12 16:59:00] [INFO] Rapport généré : reports/system_report_20251012_165859.html
+[2025-10-12 16:59:00] [INFO] === Monitoring terminé avec succès ===
+[2025-10-12 16:59:00] [INFO] Nettoyage en cours...

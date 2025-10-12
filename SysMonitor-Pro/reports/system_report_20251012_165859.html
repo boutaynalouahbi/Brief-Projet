@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SysMonitor Pro - Rapport Système</title>
+    <style>
+        body { font-family: Arial; margin: 20px; background: #f4f4f4; }
+        .header { background: #2c3e50; color: white; padding: 20px; }
+        .section { background: white; margin: 20px 0; padding: 15px; border-radius: 8px; }
+        h1, h2 { color: #2c3e50; }
+    </style>
+</head>
+<body>
+<div class="header">
+<h1>Rapport SysMonitor Pro</h1>
+<p>Généré le : Sun Oct 12 16:58:59 UTC 2025</p>
+<p>Serveur : sysmonitor</p>
+</div>
+<div class='section'><h2>Surveillance Système</h2><pre>
+top - 16:58:59 up  3:12,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks: 109 total,   1 running, 108 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  6.1 sy,  0.0 ni, 93.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   1963.7 total,    970.1 free,    176.4 used,    817.2 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   1622.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  11370 vagrant   20   0   10768   3940   3332 R   6.2   0.2   0:00.03 top
+      1 root      20   0  167580  13024   8328 S   0.0   0.6   0:11.36 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.05 kthreadd
+</pre></div>
+<div class='section'><h2>Processus</h2><pre>
+    PID COMMAND         %CPU %MEM
+  11001 main.sh          7.3  0.2
+      1 systemd          0.0  0.6
+      2 kthreadd         0.0  0.0
+      3 rcu_gp           0.0  0.0
+      4 rcu_par_gp       0.0  0.0
+      5 slub_flushwq     0.0  0.0
+      6 netns            0.0  0.0
+      8 kworker/0:0H-ev  0.0  0.0
+     10 mm_percpu_wq     0.0  0.0
+</pre></div>
+<div class='section'><h2>Services</h2><pre>
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION
+  cron.service                loaded active running Regular background program processing daemon
+  dbus.service                loaded active running D-Bus System Message Bus
+  getty@tty1.service          loaded active running Getty on tty1
+  irqbalance.service          loaded active running irqbalance daemon
+  ModemManager.service        loaded active running Modem Manager
+  multipathd.service          loaded active running Device-Mapper Multipath Device Controller
+  networkd-dispatcher.service loaded active running Dispatcher daemon for systemd-networkd
+  NetworkManager.service      loaded active running Network Manager
+  packagekit.service          loaded active running PackageKit Daemon
+  polkit.service              loaded active running Authorization Manager
+  rsyslog.service             loaded active running System Logging Service
+  serial-getty@ttyS0.service  loaded active running Serial Getty on ttyS0
+  snapd.service               loaded active running Snap Daemon
+  ssh.service                 loaded active running OpenBSD Secure Shell server
+</pre></div>
+<div class='section'><h2>Réseau</h2><pre>
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp0s3           UP             10.0.2.15/24 metric 100 fd00::29:1eff:fe73:1fd5/64 fe80::29:1eff:fe73:1fd5/64 
+enp0s8           UP             192.168.56.10/24 fe80::a00:27ff:fe9b:ba5e/64 
+</pre></div>
+</body></html>
